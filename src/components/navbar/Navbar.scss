@@ -1,0 +1,19 @@
+.navbar {
+    padding-top: 2vh;
+
+    >ul {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 3;
+        gap:2vh;
+        text-align: center;
+
+      
+
+        :hover {
+            color: #3491FF;
+            transition: 0.25s;
+        }
+    }
+
+}
