@@ -1,0 +1,9 @@
+[
+    {
+        "img": "/pages/Eznox.png",
+        "title": "Eznox",
+        "description": "Unlock a world of knowledge at your fingertips. Dive into our premium service, where every book is just a click away. Experience the convenience of unlimited access and elevate your reading journey with ease",
+        "linkGithub": "https://github.com/MauroNahuelPaul/Eznox-React-Firebase",
+        "linkDeploy": "https://eznox.netlify.app"
+    }
+]

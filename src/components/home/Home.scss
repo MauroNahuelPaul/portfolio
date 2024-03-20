@@ -1,9 +1,9 @@
 .home{
-    
-
+    height: 65vh;
+    text-align: center;
     >.nombre {
-        margin-top: 30vh;
-        text-align: center;
+        margin-top: 35vh;
+        
 
         >h1 {
             font-size: 20px;
@@ -16,8 +16,15 @@
         }
     }
     >.presentacion{
-        margin-top: 20vh;
+        margin-top: 10vh;
         text-align: center;
         color: white;
+    }
+    >.links{
+        margin-top: 5vh;
+        a{
+            margin:40px;
+            font-size: 30px;
+        }
     }
 }

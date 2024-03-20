@@ -4,19 +4,18 @@ import Navbar from './components/navbar/Navbar'
 import Home from './components/home/Home'
 import Proyects from './components/proyects/Proyects'
 import Aboutme from './components/aboutme/Aboutme'
+import Skills from './components/skills/Skills'
+import Contact from './components/contact/Contact'
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/proyects" element={<Proyects />} />
-          <Route path="/aboutme" element={<Aboutme />} />
-          <Route path='*' element={<Home />} />
-        </Routes>
-      </BrowserRouter>
+      <Navbar />
+      <Home />
+      <Aboutme />
+      <Skills />
+      <Proyects />
+      <Contact />
     </>
   )
 }
