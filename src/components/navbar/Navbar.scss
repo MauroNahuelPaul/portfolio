@@ -1,15 +1,23 @@
 .navbar {
     padding-top: 2vh;
     height: 5vh;
+    text-align: center;
+
+    .hamburger_button {
+        color: white;
+        background-color: transparent;
+        border: 0;
+        font-size: 20px;
+        transition: 0.5s;
+    }
 
     >ul {
+        position: relative;
         display: grid;
         grid-template-columns: 1;
         grid-template-rows: 3;
-        gap:2vh;
-        text-align: center;
-
-      
+        gap: 2vh;
+        background-color: rgba(52, 145, 255, 0.3);
 
         :hover {
             color: #3491FF;

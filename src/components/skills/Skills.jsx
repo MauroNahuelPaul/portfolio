@@ -6,85 +6,85 @@ import { SiFirebase, SiMongodb, SiMysql, SiTypescript, SiVite } from "react-icon
 
 const Skills = () => {
     return (
-        <div id="skills">
+        <div className="skills" id="skills">
             <h2>SKILLS</h2>
             <div>
                 <article>
-                    <h4>HTML 5</h4>
-                    <FaHtml5 />
+                    <h3>HTML 5</h3>
+                    <spam><FaHtml5 /></spam>
                 </article>
                 <article>
-                    <h4>CSS 3</h4>
-                    <FaCss3Alt />
+                    <h3>CSS 3</h3>
+                    <spam><FaCss3Alt /></spam>
                 </article>
                 <article>
-                    <h4>SASS</h4>
-                    <FaSass />
+                    <h3>SASS</h3>
+                    <spam><FaSass /></spam>
                 </article>
                 <article>
-                    <h4>SASS</h4>
-                    <FaSass />
+                    <h3>SASS</h3>
+                    <spam><FaSass /></spam>
                 </article>
                 <article>
-                    <h4>JAVA SCRIPT</h4>
-                    <IoLogoJavascript />
+                    <h3>JAVA SCRIPT</h3>
+                    <spam><IoLogoJavascript /></spam>
                 </article>
                 <article>
-                    <h4>TYPE SCRIPT</h4>
-                    <SiTypescript />
+                    <h3>TYPE SCRIPT</h3>
+                    <spam><SiTypescript /></spam>
                 </article>
                 <article>
-                    <h4>REACT JS</h4>
-                    <FaReact />
+                    <h3>REACT JS</h3>
+                    <spam><FaReact /></spam>
                 </article>
                 <article>
-                    <h4>VITE JS</h4>
-                    <SiVite />
+                    <h3>VITE JS</h3>
+                    <spam><SiVite /></spam>
                 </article>
                 <article>
-                    <h4>ANGULAR</h4>
-                    <FaAngular />
+                    <h3>ANGULAR</h3>
+                    <spam><FaAngular /></spam>
                 </article>
                 <article>
-                    <h4>NODE JS</h4>
-                    <FaNodeJs />
+                    <h3>NODE JS</h3>
+                    <spam><FaNodeJs /></spam>
                 </article>
                 <article>
-                    <h4>EXPRESS</h4>
+                    <h3>EXPRESS</h3>
                 </article>
                 <article>
-                    <h4>NEST</h4>
+                    <h3>NEST</h3>
                 </article>
                 <article>
-                    <h4>MONGO DB</h4>
-                    <SiMongodb />
+                    <h3>MONGO DB</h3>
+                    <spam><SiMongodb /></spam>
                 </article>
                 <article>
-                    <h4>FIREBASE</h4>
-                    <SiFirebase />
+                    <h3>FIREBASE</h3>
+                    <spam><SiFirebase /></spam>
                 </article>
                 <article>
-                    <h4>MY SQL</h4>
-                    <SiMysql />
+                    <h3>MY SQL</h3>
+                    <spam><SiMysql /></spam>
                 </article>
                 <article>
-                    <h4>NPM</h4>
-                    <FaNpm />
+                    <h3>NPM</h3>
+                    <spam><FaNpm /></spam>
                 </article>
 
                 <article>
-                    <h4>GITHUB</h4>
-                    <FaGithub />
+                    <h3>GITHUB</h3>
+                    <spam><FaGithub /></spam>
                 </article>
                 <article>
-                    <h4>FIGMA</h4>
-                    <FaFigma />
+                    <h3>FIGMA</h3>
+                    <spam><FaFigma /></spam>
                 </article>
-                
-                
-                
-                
-                
+
+
+
+
+
             </div>
         </div>
     )
